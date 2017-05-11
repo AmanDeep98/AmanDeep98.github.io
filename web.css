@@ -1,52 +1,56 @@
 #home{
 float:left;
 	margin-left:30px;
-	position: relative;
+	position: absolute;
 	border-radius:5px;
 	width: 240px;
 	height:240px;
 	display:inline;
-
+left: 10%;
 }
 
 #intro{
 float:left;
 	margin-left:30px;
-	position: relative;
+	position: absolute;
 	border-radius:5px;
 	width: 240px;
 	height:240px;
 	display:inline;
+	left: 50%;
 
 }#info{
 float:left;
 	margin-left:30px;
-	position: relative;
+	position: absolute;
 	border-radius:5px;
 	width: 240px;
 	height:240px;
 	display:inline;
+	left: 50%;
 
 }#contacts{
 float:left;
 	margin-left:60px;
-	position: relative;
+	position: absolute;
 	border-radius:5px;
 	width: 240px;
 	height:240px;
 	display:inline;
+	left: 80%;
 
 }
 #my{
 float:right;
 	margin-left: :150px;
-	position: relative;
+	position: absolute;
 	border-radius:5px;
 	width: 240px;
 	height:240px;
 	display:inline;
-right: 250px;
-top: 50%;
+top: 40%;
+left: 58%;
+bottom: 20%;
 
 }
 
@@ -54,27 +58,26 @@ top: 50%;
 
 float:right;
 	margin-right: :30px;
-	position: relative;
+	position: absolute;
 	border-radius:15px;
 	width: 240px;
 	height:240px;
 	display:inline;
-	top: 350px;
-
+	top: 90%;
+   left: 20%;
 
 }
 #footer2{
 
 float:right;
 	margin-right: :10px;
-	position: relative;
+	position: absolute;
 	border-radius:15px;
 	width: 0px;
 	height:240px;
 	display:inline;
-	top: 350px;
-right: 0px;
-left: 300px;
+top: 90%;
+   left: 40%;
 
 }
 body{
@@ -90,18 +93,97 @@ border-radius: 50%;
 }
 #table{
 color: whitesmoke;
-position: relative;
+position: absolute;
 display:inline;
-right: 700px;
-top: 350px;
-bottom: 30px;
+right: 60%;
+top: 40%;
+bottom: 10%;
 font-size: 20px;
 font-family: 'Open Sans', sans-serif;
+left: 20%;
 }
 p::first-letter{
 
        font-weight:bold;
-        font-size: 48px;
+        font-size: 58px;
         font-family: 'Open Sans', sans-serif;
         color: wheat;
+}
+
+
+#footer3{
+
+float:right;
+	margin-right: :30px;
+	position: absolute;
+	border-radius:15px;
+	width: 240px;
+	height:240px;
+	display:inline;
+	top: 90%;
+   left: 60%;
+
+}
+#footer4{
+
+float:right;
+	margin-right: :10px;
+	position: absolute;
+	border-radius:15px;
+	width: 0px;
+	height:240px;
+	display:inline;
+top: 90%;
+   left: 80%;
+
+}
+#contact{
+position: absolute;
+display:inline;
+right: 10%;
+top: 40%;
+bottom: 10%;
+left: 70%;
+}
+#infor1{
+
+float:right;
+	margin-right: :10px;
+	position: absolute;
+	border-radius:15px;
+	width: 0px;
+	height:240px;
+	display:inline;
+top: 100%;
+   left: 20%;
+
+}
+p{
+color: whitesmoke;
+position: absolute;
+display:inline;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+#details{
+ font-weight:bold;
+        font-size: 15px;
+        font-family: 'Open Sans', sans-serif;
+        color: wheat;
+ float:right;
+	margin-right: :10px;
+	position: absolute;
+	border-radius:15px;
+	width: 0px;
+	height:240px;
+	display:inline;
+top: 70%;
+   left: 70%;
+
+
+
 }
