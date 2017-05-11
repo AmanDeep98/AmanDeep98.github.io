@@ -1,0 +1,107 @@
+#home{
+float:left;
+	margin-left:30px;
+	position: relative;
+	border-radius:5px;
+	width: 240px;
+	height:240px;
+	display:inline;
+
+}
+
+#intro{
+float:left;
+	margin-left:30px;
+	position: relative;
+	border-radius:5px;
+	width: 240px;
+	height:240px;
+	display:inline;
+
+}#info{
+float:left;
+	margin-left:30px;
+	position: relative;
+	border-radius:5px;
+	width: 240px;
+	height:240px;
+	display:inline;
+
+}#contacts{
+float:left;
+	margin-left:60px;
+	position: relative;
+	border-radius:5px;
+	width: 240px;
+	height:240px;
+	display:inline;
+
+}
+#my{
+float:right;
+	margin-left: :150px;
+	position: relative;
+	border-radius:5px;
+	width: 240px;
+	height:240px;
+	display:inline;
+right: 250px;
+top: 50%;
+
+}
+
+#footer1{
+
+float:right;
+	margin-right: :30px;
+	position: relative;
+	border-radius:15px;
+	width: 240px;
+	height:240px;
+	display:inline;
+	top: 350px;
+
+
+}
+#footer2{
+
+float:right;
+	margin-right: :10px;
+	position: relative;
+	border-radius:15px;
+	width: 0px;
+	height:240px;
+	display:inline;
+	top: 350px;
+right: 0px;
+left: 300px;
+
+}
+body{
+background-image: url("hback.jpeg");
+border-radius: 60%;
+
+
+
+}
+
+.my{
+border-radius: 50%;
+}
+#table{
+color: whitesmoke;
+position: relative;
+display:inline;
+right: 700px;
+top: 350px;
+bottom: 30px;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+}
+p::first-letter{
+
+       font-weight:bold;
+        font-size: 48px;
+        font-family: 'Open Sans', sans-serif;
+        color: wheat;
+}
