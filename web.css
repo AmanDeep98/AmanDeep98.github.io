@@ -3,8 +3,8 @@ float:left;
 	margin-left:30px;
 	position: absolute;
 	border-radius:5px;
-	width: 240px;
-	height:240px;
+	width: 800px;
+	height:800px;
 	display:inline;
 left: 10%;
 }
@@ -14,8 +14,8 @@ float:left;
 	margin-left:30px;
 	position: absolute;
 	border-radius:5px;
-	width: 240px;
-	height:240px;
+	width: 800px;
+	height:800px;
 	display:inline;
 	left: 50%;
 
@@ -34,8 +34,8 @@ float:left;
 	margin-left:60px;
 	position: absolute;
 	border-radius:5px;
-	width: 240px;
-	height:240px;
+	width: 800px;
+	height:800px;
 	display:inline;
 	left: 80%;
 
@@ -45,8 +45,8 @@ float:right;
 	margin-left: :150px;
 	position: absolute;
 	border-radius:5px;
-	width: 240px;
-	height:240px;
+	width: 300px;
+	height:300px;
 	display:inline;
 top: 40%;
 left: 58%;
@@ -60,8 +60,8 @@ float:right;
 	margin-right: :30px;
 	position: absolute;
 	border-radius:15px;
-	width: 240px;
-	height:240px;
+	width: 55px;
+	height:55px;
 	display:inline;
 	top: 90%;
    left: 20%;
@@ -73,8 +73,8 @@ float:right;
 	margin-right: :10px;
 	position: absolute;
 	border-radius:15px;
-	width: 0px;
-	height:240px;
+	width: 55px;
+	height:55px;
 	display:inline;
 top: 90%;
    left: 40%;
@@ -92,6 +92,7 @@ border-radius: 60%;
 border-radius: 50%;
 }
 #table{
+	float: right;margin-right: 30px;position: absolute;height: 240px;width: 440px;
 color: whitesmoke;
 position: absolute;
 display:inline;
@@ -101,6 +102,21 @@ bottom: 10%;
 font-size: 20px;
 font-family: 'Open Sans', sans-serif;
 left: 20%;
+}
+#table1{
+	float: right;margin-right: 30px;position: absolute;height: 340px;width: 482px;
+color: whitesmoke;
+position: absolute;
+display:inline;
+right: 60%;
+top: 40%;
+bottom: 10%;
+font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+left: 20%;
+}
+.table:hover{
+box-shadow: 1px 1px 1px 1px  white;
 }
 p::first-letter{
 
@@ -117,8 +133,8 @@ float:right;
 	margin-right: :30px;
 	position: absolute;
 	border-radius:15px;
-	width: 240px;
-	height:240px;
+	width: 55px;
+	height:55px;
 	display:inline;
 	top: 90%;
    left: 60%;
@@ -130,8 +146,8 @@ float:right;
 	margin-right: :10px;
 	position: absolute;
 	border-radius:15px;
-	width: 0px;
-	height:240px;
+	width: 55px;
+	height:55px;
 	display:inline;
 top: 90%;
    left: 80%;
@@ -147,15 +163,15 @@ left: 70%;
 }
 #infor1{
 
-float:right;
+float:left;
 	margin-right: :10px;
 	position: absolute;
-	border-radius:15px;
-	width: 0px;
-	height:240px;
+	width: 340px;
+	height:340px;
 	display:inline;
 top: 100%;
    left: 20%;
+   right: 20%;
 
 }
 p{
@@ -185,5 +201,25 @@ top: 70%;
    left: 70%;
 
 
+
+}
+.foot:hover{
+	 box-shadow: 1px 1px 1px 1px  white;
+
+}
+.head:hover{
+ box-shadow: 1px 1px 1px 1px  white;
+
+}
+#submit{
+float:left;
+	margin-right: :10px;
+	position: absolute;
+	width: 100px;
+	height:30px;
+	display:inline;
+top: 99%;
+   left: 99%;
+   
 
 }
