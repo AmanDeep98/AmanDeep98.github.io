@@ -1,0 +1,161 @@
+html,body {
+	margin:0px;
+	padding:0px;
+	display:block;
+	left:0px;
+	right:0px;
+	min-width:max-content;
+}
+.header 
+{
+	background-color: rgb(59,89,152);
+	width:auto;
+	margin:0;;
+	padding:0;
+	max-height:100px;
+}
+
+
+#sf_logo{
+position: absolute;
+left: 5%;
+top: 1%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+}
+
+#email{
+position: absolute;
+left: 55%;
+top: 2%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+
+}
+
+#pass{
+position: absolute;
+left: 70%;
+top: 2%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+}
+
+#forgot{
+position: absolute;
+left: 70%;
+top: 12%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+}
+
+
+#login{
+position: absolute;
+left: 85%;
+top: 10%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+}
+
+.blue_{
+color: white;
+
+}
+.small{
+font-size: 15px;
+
+}
+
+.blue_1{
+color: white;
+background-color: blue;
+}
+
+body
+{
+	background-color: #fff;
+	color:#1d2129;
+	direction:ltr;
+	line-height:1.34;
+	margin:0;
+	padding:0;
+	unicode-bidi:embed
+	}
+
+#left{
+position: absolute;
+
+top: 20.5%;
+padding-left: 0px;
+padding-top: 0px;
+right: 50%;
+}
+#right{
+position: absolute;
+
+top: 20.5%;
+padding-left: 0px;
+padding-top: 0px;
+left: 49.4%;
+}
+a:hover 
+{
+	text-decoration: underline;
+}
+#form1{
+position: absolute;
+left: 55%;
+top: 40%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+
+
+}
+#foot{
+position: absolute;
+left: 1%;
+top: 80%;
+padding-left: 0px;
+padding-top: 0px;
+
+
+
+}
+#foot1{
+position: absolute;
+left: 5%;
+top: 82%;
+padding-left: 0px;
+padding-top: 0px;
+
+
+
+}
+#terms{
+position: absolute;
+left: 59%;
+top: 50%;
+padding-left: 0px;
+padding-top: 0px;
+right: 2%;
+
+
+}
+#line{
+position: absolute;
+left: 2%;
+top: 120%;
+
+}
+#clear{
+position: absolute;
+top: 140%;
+right: 90%; 
+}
