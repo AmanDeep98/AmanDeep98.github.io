@@ -1,7 +1,7 @@
 html,body {
 	margin:0;
 	background: linear-gradient(white,#d3d9e9);
-	
+	min-height: 85%;
 }
 
 .header
@@ -112,11 +112,13 @@ color: #7b7284;
 }
 
 .left img{
+position: relative;
 margin-left: 100px;
 color: #7b7284;
-
+margin-right: 60px;
+float: left;
 }
-.form1 input{
+ .input{
 float: right;
 margin-top: 100px;
 position: relative;
@@ -148,11 +150,15 @@ position: relative;
 padding-left: 16%;
 padding-top: 3%;
 padding-right: 5%;
+margin-left: 2%;
+white-space: normal;
+width: auto;
 }
-.col{
-colspan="2";
+table.auto{
+table-layout: auto;
 
 }
+
 p{
 font-size: 12px;
 
@@ -170,4 +176,15 @@ font-weight: bold;
 }
 .middle span{
 position:absolute;
+}
+.right td{
+padding-left: 0%;
+col width="2%";
+max-width:320px;
+}
+.note{
+margin-left: 52%;
+font-size: 16px;
+font-weight: bold;
+
 }
