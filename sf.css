@@ -6,7 +6,7 @@ html,body {
 
 .header
 {
-	background-color: #424b9b;##hexanotation
+	background-color: rgb(59,89,152);
 	width: auto;
 	margin:0;
 	max-height:110px;
@@ -187,11 +187,16 @@ font-weight: bold;
 .middle span{
 position:absolute;
 }
+.right tr{
+max-height=32px;
+
+
+}
 .right td{
 padding-left: 0%;
 col width="2%";
 max-width:210px;
-
+height=32px;
 }
 .note{
 margin-left: 59%;
