@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+.card {
+  float: left;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  background: lightblue;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #ccc;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 3px solid blue;
+}
+
+.card p {
+  font-size: 48px;
+  color: blue;
+}
+
+h2{
+  font-size: 24px;
+  color: black;
+
+}
+
+ h2 : hover{
+  cursor: pointer;
+  border: 3px solid blue;
+ }
+ .danger {background-color: #f44336;}
+ /* Red */
+.danger:hover {background: #da190b;}
+
+ header .nav{
+  height: 15%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  background: darkcyan;
+  text-align: center;
+}
+button{
+height: 36px;
+width: 8%;
+fill: center;
+border-radius: 20%;
+border: none; /* Remove borders */
+    color: black; /* Add a text color */
+    padding: 10px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    margin-left: 30%;
+ 
+}
+.body{
+ height: 100%;
+ width: 100%;
+ background-image:  url("index.jpeg");
+}
+
+header .nav{
+  height: 35%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  background: darkcyan;
+  text-align: center;
+}
+.head{
+  height: 35%;
+  width: 100%;
+  position: relative;
+  padding-bottom: 2%;
+  padding-top: 1%;
+  background: darkcyan;
+  text-align: center;
+
+}
+

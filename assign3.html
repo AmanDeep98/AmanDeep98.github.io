@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>The luck predictor</title>
+	<link rel="icon" href="luck.jpeg" type="image/jpeg" >
+	
+	<link rel="stylesheet" type="text/css" href="assgn3.css">
+</head>
+<body>
+<header id="header" class="head">
+<span class="nav">
+	<p>A LUCK predictor!!</p>
+</span>
+	
+</header><!-- /header -->
+<p>
+	Rules:<br> User can select two boxes at maximum. If two boxes of <br>
+different alphabets are selected then nothing happens  but if the third box clicked matches with the second one it opens up <br>
+(They both get hidden again). If both the boxes have same alphabet then you earn a match <br>
+So enjoy!!
+<h2 id="play">Play!!</h2>
+
+<h1 id="start">Start!!</h1>
+
+</p>
+<div class="gamebox"><!--the body of the page -->
+
+</div>
+<footer>
+	The end portion.
+	<form >
+		<button class="button danger"  id="End"   >Score</button>
+	</form>
+	<div id="clicks"></div>
+	<div id="score"></div>
+</footer>
+
+ <!-- Load the CDN first 
+        <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>-->
+        
+         <!--If CDN fails to load, serve up the local version -->
+        <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
+        
+        <script src="js/scriptnew.js"></script>	
+</body>
+</html>
