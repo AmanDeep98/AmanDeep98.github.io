@@ -77,7 +77,7 @@ $("#play").click(function(){
   $("#rules").show(1000);
   $(".rules").hide(1000);
   $(".status").show(1000);
-  $(".head").css('height', '30%');
+  $(".head").css('height', '28%');
 });
 $("#rules").click(function(){
   $(".container").hide();

@@ -61,6 +61,7 @@ border: none; /* Remove borders */
     padding: 10px 20px; /* Add some padding */
     cursor: pointer; /* Add a pointer cursor on mouse-over */
     margin-left: 30%;
+    font-size: 13px;
  
 }
 .body{
@@ -70,7 +71,7 @@ border: none; /* Remove borders */
 }
 
 header .nav{
-  height: 35%;
+  height: 45%;
   width: 100%;
   position: relative;
   padding-bottom: 2%;
