@@ -10,30 +10,36 @@
 </head>
   
 <body>
+<div id="start" class="active">Start.........</div>
+<div class=" spinner spinner-1" id="load"></div>
 <header id="header" class="head">
-<span class="nav">
-  <p><h1>Memory Game</h1></p>
-  <p class="rules">
+
+<span class="nav"><table>
+  <tr><p><h1>Memory Game</h1></p></tr>
+ <tr> <p class="rules">
   Rules:<br> User can select two boxes at maximum. If two boxes of <br>
 different alphabets are selected then nothing happens  but if the third box clicked matches with the second one it opens up <br>
 (They both get hidden again). If both the boxes have same alphabet then you earn a match <br>
-So enjoy!!
-<h2 id="play" >Play!!</h2>
+So enjoy!!</p></tr>
+<tr><h2 id="play" class="active" >Play!!</h2></tr>
 
-<h2 id="rules"> Rules</h2>
-
-</p>
-</span>
-<p>
-  <footer>
-  
-  <form >
-    <button class="button danger"  id="End"   >End Game</button>
+<tr><h2 id="rules" class="active"> Rules</h2></tr>
+<tr>
+<td><div class="clock " id="score"><br>Score</div></td>
+<td><div class="clock " id="match"><br>Matches</div></td></tr>
+<tr><p>
+  <footer><form >
+    <button class="button danger active"  id="End" >End Game</button>
   </form>
 </footer>
-</p>  
+</p> </tr>
+</table>
+</span>
+ 
 </header><!-- /header -->
-  <div class="container">
+<div>
+
+ <div class="container"><br><br><br><br><br><br>
     <div class="card unmatched"></div>
     <div class="card unmatched"></div>
     <div class="card unmatched"></div>
@@ -52,7 +58,10 @@ So enjoy!!
     <div class="card unmatched"></div>
     <div class="card unmatched"></div>
     <div class="card unmatched"></div>
-  </div>
+
+  </div> 
+</div>
+  
   <script>window.jQuery || document.write('<script src="js/jquery-2.1.4.js"><\/script>');</script>
         
         <script src="js/new.js"></script>
